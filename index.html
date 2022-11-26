@@ -1,112 +1,118 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css./styles.css">
     <title>Document</title>
 </head>
-
 <body>
     <header>
-        <nav>   
-            <a href="">
-            WebStudio
-            </a>
-
-            <ul>
-                <li><a href="">Студія</a></li>
-                <li><a href="">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+        <nav class="navigation"> 
+            <!--навігація-->
+            <a href="" class="logo">Web<span class="logo-studio">Studio</span></a>
+            <ul class="site-nav">
+                <li><a href="./index.html" class="studio current">Студія</a></li>
+                <li><a href="./portfolio.html" class="portfolio">Портфоліо</a></li>
+                <li><a href="" class="contacts">Контакти</a></li>
             </ul>
-
+            <ul class="navigation">
+                <li><a class="email" href="info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="telephone" href="+38-096-111-11-11">tel:+38-096-111-11-11</a></li>
+            </ul>
         </nav>
-        <ul>
-            <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="+38-096-111-11-11">tel:+38-096-111-11-11</a></li>
-        </ul>
-        
     </header>
     <main>
-        <section>
-            <h1>Ефективні рішення для<br>вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button> 
+        <!-- герой -->
+        <section class="hero">
+            <h1 class="hero-title">Ефективні рішення для<br>вашого бізнесу</h1>
+            <button type="button" class="button">Замовити послугу</button> 
         </section>
-    
-        <section>
-        <ul>
-           <li>
-               <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-               <p>
-            Ідейні міркування, і навіть початок
-            повсякденної роботи з формування 
-            позиції.
-               </p>
-           </li>
-           <li>    
-               <h3>ПУНКТУАЛЬНІСТЬ</h3>
-               <p>
-            Завдання організації, особливо рамки
-            і місце навчання кадрів тягне у себе.
-               </p>
-           </li>
-           <li>
-               <h3>ПЛАНУВАННЯ</h3>
-               <p>
-            Так само консультація з широким
-            активом значною мірою зумовлює.
-               </p>
-           </li>
-           <li>
-               <h3> СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-               <p>
-            Значимість цих проблем настільки 
-            очевидна, що реалізація планових
-            завдань.
-               </p>
-           </li>
-        </ul>
+
+        <!-- про нас -->
+        <section class="benefits">
+            <ul class="about">
+                <li class="details">
+                   <h3 class="title-details">УВАГА ДО ДЕТАЛЕЙ</h3>
+                   <p class="text-details">
+                   Ідейні міркування, і навіть початок
+                   повсякденної роботи з формування 
+                   позиції.
+                   </p>
+                </li>
+                <li class="punctuality">    
+                   <h3 class="title-punctuality">ПУНКТУАЛЬНІСТЬ</h3>
+                   <p class="text-punctuality">
+                   Завдання організації, особливо рамки
+                   і місце навчання кадрів тягне у себе.
+                   </p>
+                </li>
+                   <li class="planning">
+                   <h3 class="title-planning">ПЛАНУВАННЯ</h3>
+                   <p class="text-planning">
+                   Так само консультація з широким
+                   активом значною мірою зумовлює.
+                   </p>
+                </li>
+                <li class="technologies">
+                   <h3 class="title-technologies">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                   <p class="text-technologies">
+                   Значимість цих проблем настільки 
+                   очевидна, що реалізація планових
+                   завдань.
+                   </p>
+                </li>
+            </ul>
         </section>
-        <section>
-            <h2>Чим ми займаємося</h2>
-            <ul>
+
+        <!-- чим ми займаємось -->
+        <section class="work">
+            <h2 class="title-work">Чим ми займаємося</h2>
+            <ul class="labor">
                 <li><img src="./images/imag/imags1.jpg" alt="руки на клавіатурі" width="370" height="294"></li>
                 <li><img src="./images/imag/imags2.jpg" alt="смартфон і монітори" width="370" height="294"></li>
                 <li><img src="./images/imag/imags3.jpg" alt="планшет в руках" width="370" height="294"></li>
             </ul>  
         </section>
-        <section>
-           <h2>Наша команда</h2>
-           <ul>
+
+        <!-- наша команда -->
+        <section class="team">
+           <h2 class="team-title">Наша команда</h2>
+           <ul class="employes">
                 <li>
-                    <img src="./images/imag/photo1.jpg" alt="фото співробітника" width="270" height="260">
-                    <h3>Ігор Дем'яненко</h3>
-                    <p>Product Designer</p>
+                    <img class="image-designer" src="./images/imag/photo1.jpg" alt="фото співробітника" width="270" height="260">
+                    <h3 class="title-designer">Ігор Дем'яненко</h3>
+                    <p class="text-designer">Product Designer</p>
                 </li>
-                <li><img src="./images/imag/photo2.jpg" alt="фото співробітниці" width="270" height="260">
-                    <h3>Ольга Рєпіна</h3>  
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./images/imag/photo3.jpg" alt="фото співробітника" width="270" height="260">
-                    <h3>Микола Тарасов</h3>
-                    <p>Marketing</p>
+                <li><img class="image-frontend" src="./images/imag/photo2.jpg" alt="фото співробітниці" width="270" height="260">
+                    <h3 class="title-frontend">Ольга Рєпіна</h3>  
+                    <p class="text-frontend">Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="./images/imag/photo4.jpg" alt="фото співробітника" width="270" height="260">
-                    <h3>Михайло Єрмаков</h3>
-                    <p>UI Designer</p>
+                    <img class="image-marketing" src="./images/imag/photo3.jpg" alt="фото співробітника" width="270" height="260">
+                    <h3 class="title-marketing">Микола Тарасов</h3>
+                    <p class="text-marketing">Marketing</p>
+                </li>
+                <li>
+                    <img class="image-ui" src="./images/imag/photo4.jpg" alt="фото співробітника" width="270" height="260">
+                    <h3 class="title-ui">Михайло Єрмаков</h3>
+                    <p class="text-ui">UI Designer</p>
                 </li>
             </ul>           
         </section>
     </main>
-    <footer> 
-        <a href="">WebStudio</a>
-        <address>м. Київ, пр-т Лесі Українки, 26</address>
-        <ul>       
-            <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="+38-096-111-11-11">+38-096-111-11-11</a></li>
+
+    <!-- підвал -->
+    <footer class="footer"> 
+        <a href="" class="web">Web<span class="studios">Studio</span></a>
+        <address class="adress">м. Київ, пр-т Лесі Українки, 26</address>
+        <ul class="contact"> 
+            <li><a class="footer-email" href="info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="footer-tel" href="+38-096-111-11-11">+38-096-111-11-11</a></li>
         </ul>
     </footer>  
 </body>

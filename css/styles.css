@@ -1,0 +1,357 @@
+/* стилі для html */
+
+/* колір основного тексту #212121  */
+/* колір другорядного тексту #757575 */
+/* білий #FFFFFF*/
+/* акцент #2196F3 */
+
+:root{
+    --primary-title-color: #212121;
+    --text-color:#757575;
+    --accent-color: #2196F3;  
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    letter-spacing: 0.03em;
+}
+
+.navigation{
+    background-color:  #ECECEC;
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1,2;
+    color:var(--accent-color); 
+    text-decoration: none;   
+}
+
+.logo-studio{
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1,2;
+    color: #000000; 
+    text-decoration: none;   
+}
+.site-nav{
+    list-style: none;
+}
+.navigation{
+    list-style: none;
+}
+
+/* site-nav */
+
+.studio{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,2;
+    color:var(--primary-title-color);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.studio.current{
+    color:var(--accent-color);
+}
+
+.portfolio{
+    font-weight: 500;   
+   font-size: 14px;
+   line-height: 1,2;
+   color:var(--primary-title-color);
+   letter-spacing: 0.02em;
+   text-decoration: none;
+}
+
+.contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,2;
+    color:var(--primary-title-color);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.email:hover,
+.email:focus{
+    color:var(--accent-color) ;
+}
+
+.email{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,2;
+    color:var(--text-color);
+    text-decoration: none;
+}
+
+.telephone:hover,
+.telephone:focus{
+    color:var(--accent-color) ;
+}
+.telephone{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,2;
+    color:var(--text-color); 
+    text-decoration: none; 
+    letter-spacing: 0.02em;  
+}
+
+/* герой */
+.hero{
+    background: #2F303A;
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,2;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button{   
+   background:var(--accent-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   color: #FFFFFF;
+}
+
+/* про нас */
+.benefits{
+    background: #F5F5F5;
+}
+.about{
+    list-style: none;
+}
+.title-punctuality,
+.title-planning,
+.title-technologies,
+.title-details{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
+    color:var(--primary-title-color);   
+}
+.text-punctuality,
+.text-technologies,
+.text-planning,
+.text-details{
+    font-size: 14px;
+    line-height: 1,7;
+    color:var(--text-color);   
+}
+
+/* чим ми займаємось */
+.title-work{
+    font-size: 36px;
+    line-height: 1,2;
+    color:var(--primary-title-color)
+}
+.labor{
+    list-style: none;
+}
+
+/* наша команда */
+.team{   
+    background: #F5F4FA;
+}
+.team-title{
+    font-weight: 700;
+    background: #FFFFFF;
+    font-size: 36px;
+    line-height: 1,2;
+    color:var(--primary-title-color);
+}
+.employes{
+    list-style: none;
+}
+.image-designer{  
+    width: 270px;
+    height: 260px;
+    left: 215px;
+    top: 1632px;
+}
+.title-frontend,
+.title-ui,
+.title-marketing,
+.title-designer{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,2;
+    text-align: center;
+    color:var(--primary-title-color);
+}
+.text-frontend,
+.text-marketing,
+.text-ui,
+.text-designer{
+    font-size: 16px;
+    line-height: 1,2;
+    text-align: center;
+    color:var(--text-color);
+}
+
+.image-frontend{
+    width: 270px;
+    height: 260px;
+    left: 515px;
+    top: 1632px;
+}
+.image-marketing{
+    width: 270px;
+    height: 260px;
+    left: 815px;
+    top: 1632px;    
+}
+.image-ui{
+    width: 270px;
+    height: 260px;
+    left: 1115px;
+    top: 1632px;
+}
+
+/* підвал */
+.footer{
+    background: #2F303A;    
+}
+.web{
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1,2;
+    color:var(--accent-color); 
+    text-decoration: none;  
+}
+.studios{
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1,2;
+    color: #FFFFFF;
+    text-decoration: none;    
+}
+.adress{
+    font-size: 14px;
+    line-height: 1,14;
+    color: #FFFFFF;
+}
+.contact{
+    list-style: none;
+}
+.footer-email:hover,
+.footer-email:focus{
+    color:var(--accent-color);
+}
+.footer-email{
+    font-size: 14px;
+    line-height: 1,14;
+    color: rgba(255, 255, 255, 0.6); 
+    text-decoration: none;   
+}
+.footer-tel:hover,
+.footer-tel:focus{
+    color:var(--accent-color);
+}
+.footer-tel{
+    font-size: 14px;
+    line-height: 1,14;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;    
+}
+
+/* СТИЛІ ДЛЯ ПОРТФОЛIO*/
+/* button */
+.studio{
+    color: var(--primary-title-color);
+}
+.portfolio.current{
+    color:var(--accent-color); 
+}
+.filter-button:hover,
+.filter-button:focus{
+    font-size: 16px;
+    line-height: 1,6;
+    text-align: center;
+    color: #FFFFFF;
+    background:var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.filter-button{
+    font-size: 16px;
+    line-height: 1,6;
+    text-align: center;
+    color:var(--primary-title-color);
+    background: #F5F4FA;
+}
+ /* <h1>portfolio</> */
+.filter{
+    list-style: none;
+}
+.gallery{
+    list-style: none;
+}
+.list-item{
+    text-decoration: none;
+}
+.people{    
+    background: url(portfolio1)
+}
+.basket{
+    background: url(portfolio2);
+}
+.logotype{
+    background: url(portfolio-1);
+}
+.headphone{
+    background: url(portfolio-2);
+}
+.boxes{
+    background: url(portfolio5);
+}
+.monitor{
+    background: url(111);
+}
+.book{
+    background: url(portfolio7);
+}
+.label{
+    background: url(portfolio8);
+}
+.laptop{
+    background: url(2910404);
+}
+.techno,
+.poster,
+.restoran,
+.prime,
+.project,
+.borders,
+.edition,
+.lab,
+.busines{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2,0;
+    letter-spacing: 0.06em;
+    color:var(--primary-title-color);
+}
+.site,
+.design,
+.addition,
+.market,
+.addit,
+.sites,
+.desig,
+.marketing,
+.additi{
+    font-size: 16px;
+    line-height: 1,9;
+    letter-spacing: 0.03em;
+    color:var(--text-color);   
+}
